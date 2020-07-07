@@ -15,7 +15,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldMaxSpend() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int expected = 1000;
+        int expected = 0;
         int actual = cashbackHackService.remain(1000);
         assertEquals(expected, actual);
     }
